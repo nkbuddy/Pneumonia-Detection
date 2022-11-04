@@ -1,4 +1,4 @@
-# dsc-phase-4-project-Image-Classification-with-Deep-Learning
+# project-Image-Classification-with-Deep-Learning
 Student name: Qilun Chen<br>
 Student pace: full time<br>
 Scheduled project review date/time: May/13/2022<br>
