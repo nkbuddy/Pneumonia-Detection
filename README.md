@@ -5,6 +5,8 @@ Scheduled project review date/time: May/13/2022<br>
 Instructor name: Praveen Gowtham<br>
 # Purpose
 Identifying whether or not they have pneumonia by Image-Based Deep Learning. Pneumonia is lungs with inflammatory, blackage of the bronchiole, and Alveoli with fluid. When interpreting the x-ray, the radiologist will look for white spots in the lungs (called infiltrates) that identify an infection.
+# Libraries I Used in this project
+It includes numpy, pandas, tensorflow, matplotlib, sklearn, keras, and seaborn
 # Gather the Data
 ![alt text](https://github.com/nkbuddy/Pneumonia-Detection/blob/main/images%20for%20github/number_of_images.png?raw=true)<br>
 This dataset contains thousands of validated Chest X-Ray images  described. The images are split into a training set and a testing set of independent patients. Images are labeled as (disease)-(randomized patient ID)-(image number by this patient) and split into 2 directories: Pneumonia, and NORMAL. The dataset is from Mendeley Data. University of California San Diego, Guangzhou Women and Children's Medical Center. The three contributors are Daniel Kermany, Kang Zhang, Michael Goldbaum.
@@ -17,6 +19,8 @@ first, to generate a ImageDataGenerator and rescales to 1/255. Second, resized e
 ![alt text](https://github.com/nkbuddy/Pneumonia-Detection/blob/main/images%20for%20github/layers.png?raw=true)<br>
 Architecture of Multi-Layer Perceptron used: input->[conv2D->maxpool2D] x 4 -> Flatten -> Dense -> Sigmoid<br>
 Generate a sequential model, and add layers. The final layer should be sigmoid, because i solving yes or no question. Compile the model by using RMSprop optimizer. Fit the model with train generator with 100 steps 30 epochs. Than I get model accuracy 86%
+![alt text](https://github.com/nkbuddy/Pneumonia-Detection/blob/main/images%20for%20github/feature_map.png?raw=true)<br>
+This is the model's feature map.
 # Model Performance
 ![alt text](https://github.com/nkbuddy/Pneumonia-Detection/blob/main/images%20for%20github/first_model.png?raw=true)<br>
 The training accuracy and training loss approach climax in 10 epoch. But validation accuracy and validation loss are unstable.<br>
