@@ -3,10 +3,13 @@ Student name: Qilun Chen<br>
 Student pace: full time<br>
 Scheduled project review date/time: May/13/2022<br>
 Instructor name: Praveen Gowtham<br>
+
 # Purpose
 Identifying whether or not they have pneumonia by Image-Based Deep Learning. Pneumonia is lungs with inflammatory, blackage of the bronchiole, and Alveoli with fluid. When interpreting the x-ray, the radiologist will look for white spots in the lungs (called infiltrates) that identify an infection.
-# Libraries I Used in this project
+
+# Technology in this project
 It includes numpy, pandas, tensorflow, matplotlib, sklearn, keras, and seaborn
+
 # Gather the Data
 ![alt text](https://github.com/nkbuddy/Pneumonia-Detection/blob/main/images%20for%20github/number_of_images.png?raw=true)<br>
 This dataset contains thousands of validated Chest X-Ray images  described. The images are split into a training set and a testing set of independent patients. Images are labeled as (disease)-(randomized patient ID)-(image number by this patient) and split into 2 directories: Pneumonia, and NORMAL. The dataset is from Mendeley Data. University of California San Diego, Guangzhou Women and Children's Medical Center. The three contributors are Daniel Kermany, Kang Zhang, Michael Goldbaum.
